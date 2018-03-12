@@ -1,13 +1,4 @@
-"""
-SCRIPT: Conversão do kanbn pra texto e csv
-AUTOR: Danilo Mello
-CRIAÇÃO: 01/03/2018
-DESCRIÇÃO: Este script acessa o site do kanban com o auxílio do Selenium, acessa o quadro do projeto Unifica
-            e realiza o scrap, passando os dados coletado para texto numa forma que possa ser lido pelo Oracle DB.
-PARÂMETROS:
-    EMAIL: email de login ao kanban (variável de sistema)
-    EMAILSENHA: senha de acesso ao kaban (variável de sistema)
-"""
+
 
 import bs4, csv, os, re
 from selenium import webdriver
